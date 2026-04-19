@@ -13,6 +13,7 @@ qt_standard_project_setup()
 # Add your source files here
 add_executable(MyQtProject
     main.cpp
+    game_field.h game_field.cpp game_field.ui
 )
 
 # Link the Qt Widgets library

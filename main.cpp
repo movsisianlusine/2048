@@ -1,13 +1,11 @@
+#include "game_field.h"
 #include <QApplication>
-#include <QWidget>
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
 
-    QWidget window;
-    window.resize(320, 240);
-    window.setWindowTitle("Qt Project");
-    window.show();
-
-    return app.exec();
+    QApplication a(argc, argv);
+    Game_field w;
+    w.resize(600, 600);
+    w.show();
+    return a.exec();
 }
